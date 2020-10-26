@@ -1,0 +1,24 @@
+div{
+	 width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: OLIVE;
+}
+img {
+  border-radius: 4px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+li:before {
+  content: "✔️";
+  padding-right: 5px;
+}
